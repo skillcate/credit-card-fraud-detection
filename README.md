@@ -1,6 +1,12 @@
 # Credit Card Fraud Detection
 * Deep Learning Project on detecting fraudulent card transactions.
 
+## Sample Data
+| **Txn Hour** | **Txn Type** | **Origin Balance: Old \| New** | **Dest Balance: Old \| New ** | **Txn Amount** | **Fraud Flag (0/1)** | **True Label** |
+|--------------|--------------|--------------------------------|-------------------------------|----------------|----------------------|----------------|
+| 236          | TRANSFER     | 4121986 \| 0                   | 0 \| 0                        | 4121986        | 0                    | Green Flag     |
+| 17           | TRANSFER     | 305627  \| 0                   | 0 \| 0                        | 305627         | 0                    | Red Flag       |
+
 ## Steps to run on Windows
 
 * Prerequisites: [Python 3.9](https://www.python.org/downloads/) (ensure Python is added to [PATH](https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013)) + [Git](https://www.markdownguide.org/basic-syntax/) Client 
