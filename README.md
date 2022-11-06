@@ -5,7 +5,7 @@
 ![](https://github.com/skillcate/credit-card-fraud-detection/blob/f37c1ba43a354df8d1def6268582d05bc8ad6c0b/templates/CardFraud_AppFunctionality.gif)
 
 ## Sample Data
-| **Txn Hour** | **Txn Type** | **Origin Balance: Old \| New** | **Dest Balance: Old \| New ** | **Txn Amount** | **Fraud Flag (0/1)** | **True Label** |
+| **Txn Hour** | **Txn Type** | **Origin Balance: Old \| New** | **Dest Balance: Old \| New**  | **Txn Amount** | **Fraud Flag (0/1)** | **True Label** |
 |--------------|--------------|--------------------------------|-------------------------------|----------------|----------------------|----------------|
 | 236          | TRANSFER     | 4121986 \| 0                   | 0 \| 0                        | 4121986        | 0                    | Red Flag       |
 | 17           | TRANSFER     | 305627  \| 0                   | 0 \| 0                        | 305627         | 0                    | Green Flag     |
